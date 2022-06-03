@@ -1,0 +1,128 @@
+.calendar {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.error-unavailable {
+  color: #ff2828;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px;
+  background: #ffd9d9ee;
+}
+
+.time-slots {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  margin: 0 auto;
+  width: 80%;
+}
+
+.loading {
+  font-weight: 700;
+  color: #6c6c6c;
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+  color: #403e3e;
+}
+
+.time-slots button {
+  width: 140px;
+  margin: 8px;
+  border: 2px solid #cccccc;
+  height: 47px;
+  text-align: center;
+  background-color: #efefef;
+}
+
+.confirmation-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.confirmation-button button {
+  width: 140px;
+  margin: 8px;
+  border: 1px solid #979797;
+  height: 47px;
+  text-align: center;
+  background-color: #076ab5;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 22px;
+}
+
+.slots {
+  align-items: center;
+  display: flex;
+  /* flex-direction: inherit; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.reason {
+  width: 300px;
+  height: 100px;
+}
+
+.reason textarea {
+  width: 100%;
+  height: 80px;
+}
+
+.selected {
+  background-color: #076ab5 !important;
+}
+
+.not-available {
+  color: #979797 !important;
+}
+
+@media only screen and (max-width: 2000px) {
+    .time-slots button {
+      width: 140px;
+    }
+  
+    .reason {
+      width: 60%; 
+    }
+  }
+
+@media only screen and (max-width: 1000px) {
+  .time-slots button {
+    width: 140px;
+  }
+
+  .reason {
+    width: 80%; 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .time-slots button {
+    width: 100%;
+  }
+
+  .reason {
+    width: 60%; 
+  }
+}
